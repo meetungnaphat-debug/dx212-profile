@@ -1,0 +1,263 @@
+<html>
+    <body>
+        <h1>Naphat Charoensuk
+            <p>6823765380/dx
+                <p>planner and journal
+                    
+                    <a href="https://github.com/meetungnaphat-debug">my GitHub</a> 
+                    <!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Naphat Charoensuk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --white:#FBFAF7;
+    --ink:#1D1C19;
+    --ink-soft:#55524A;
+    --muted:#9A9689;
+    --hairline:#E4E0D5;
+    --green:#173B2D;
+    --gold:#A6824F;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--white);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    font-weight:300;
+  }
+  ::selection{background:#E9E2D0;color:var(--green);}
+
+  .wrap{max-width:720px;margin:0 auto;padding:0 32px;}
+
+  .reveal{opacity:0;transform:translateY(14px);animation:rise .8s cubic-bezier(.22,.8,.28,1) forwards;}
+  @keyframes rise{to{opacity:1;transform:translateY(0);}}
+  .d1{animation-delay:.05s;} .d2{animation-delay:.2s;} .d3{animation-delay:.35s;}
+
+  /* ---------- Hero ---------- */
+  .hero{
+    min-height:92svh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:100px 0 60px;
+  }
+  .eyebrow{
+    display:flex;align-items:center;gap:10px;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    color:var(--gold);
+    margin-bottom:26px;
+    flex-wrap:wrap;
+  }
+  .eyebrow .id{
+    color:var(--muted);
+    letter-spacing:.08em;
+  }
+  .eyebrow .dot{width:3px;height:3px;border-radius:50%;background:var(--muted);}
+
+  h1.name{
+    font-family:'Fraunces',serif;
+    font-weight:500;
+    font-size:clamp(42px,8vw,80px);
+    line-height:1.04;
+    letter-spacing:-.01em;
+    color:var(--green);
+  }
+
+  .rule{
+    width:64px;
+    height:1px;
+    background:var(--gold);
+    margin:32px 0 28px;
+    transform-origin:left;
+    animation:draw .9s cubic-bezier(.22,.8,.28,1) forwards;
+    animation-delay:.4s;
+    transform:scaleX(0);
+  }
+  @keyframes draw{to{transform:scaleX(1);}}
+
+  .tagline{
+    font-size:17px;
+    color:var(--ink-soft);
+    max-width:460px;
+    line-height:1.75;
+  }
+  .tagline b{font-weight:500;color:var(--green);}
+
+  /* ---------- Sections ---------- */
+  section{padding:64px 0;border-top:1px solid var(--hairline);}
+  .label{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    color:var(--gold);
+    margin-bottom:18px;
+  }
+
+  .about p{
+    font-size:16px;
+    line-height:1.85;
+    color:var(--ink-soft);
+    max-width:560px;
+  }
+
+  /* ---------- Interests ---------- */
+  .interest-row{
+    display:flex;
+    align-items:baseline;
+    gap:20px;
+    padding:20px 0;
+    border-bottom:1px solid var(--hairline);
+  }
+  .interest-row:first-child{border-top:1px solid var(--hairline);}
+  .interest-name{
+    font-family:'Fraunces',serif;
+    font-weight:500;
+    font-size:19px;
+    color:var(--ink);
+    width:180px;
+    flex-shrink:0;
+  }
+  .interest-desc{
+    font-size:14px;
+    color:var(--muted);
+    font-weight:300;
+  }
+
+  /* ---------- Contact ---------- */
+  .contact-card{
+    display:inline-flex;
+    align-items:center;
+    gap:16px;
+    padding:18px 26px;
+    border:1px solid var(--hairline);
+    text-decoration:none;
+    color:var(--ink);
+    transition:border-color .3s ease, transform .3s ease;
+  }
+  .contact-card:hover{border-color:var(--gold);transform:translateX(4px);}
+  .ig-glyph{
+    width:32px;height:32px;
+    border:1px solid var(--gold);
+    border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Fraunces',serif;
+    font-size:13px;
+    color:var(--green);
+    flex-shrink:0;
+  }
+  .ig-text .ig-k{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10px;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    color:var(--muted);
+    margin-bottom:3px;
+  }
+  .ig-text .ig-v{
+    font-family:'Fraunces',serif;
+    font-size:18px;
+    color:var(--green);
+  }
+
+  footer{
+    padding:28px 32px;
+    text-align:center;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10px;
+    letter-spacing:.1em;
+    color:var(--muted);
+    border-top:1px solid var(--hairline);
+  }
+
+  @media (max-width:600px){
+    .wrap{padding:0 22px;}
+    .hero{padding:88px 0 50px;}
+    .interest-row{flex-direction:column;gap:4px;}
+    .interest-name{width:auto;}
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    .reveal,.rule{animation:none !important;opacity:1 !important;transform:none !important;}
+  }
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow reveal d1">การแนะนำตัว <span class="dot"></span> <span class="id">รหัสนักศึกษา 6823765380</span></p>
+    <h1 class="name reveal d2">Naphat Charoensuk</h1>
+    <div class="rule"></div>
+    <p class="tagline reveal d3">
+      สื่อสารภาษาอังกฤษได้ สนใจเรื่อง <b>การเงิน</b> และ <b>การพัฒนาตนเอง</b>
+      เชื่อในความก้าวหน้าอย่างมีวินัยและเรียบง่าย
+    </p>
+  </div>
+</section>
+
+<section class="about">
+  <div class="wrap">
+    <p class="label">เกี่ยวกับ</p>
+    <p>
+      Naphat Charoensuk ให้ความสำคัญกับการเรียนรู้อย่างต่อเนื่อง
+      ทั้งด้านการเงินส่วนบุคคลและการพัฒนาตนเอง พร้อมสื่อสารภาษาอังกฤษได้คล่อง
+      เพื่อเปิดรับมุมมองและโอกาสใหม่ ๆ อยู่เสมอ
+    </p>
+  </div>
+</section>
+
+<section id="interests">
+  <div class="wrap">
+    <p class="label">ความสนใจ</p>
+
+    <div class="interest-row">
+      <span class="interest-name">Finance</span>
+      <span class="interest-desc">การวางแผนการเงินและการลงทุน</span>
+    </div>
+
+    <div class="interest-row">
+      <span class="interest-name">Self improvement</span>
+      <span class="interest-desc">พัฒนาตนเองอย่างต่อเนื่อง</span>
+    </div>
+
+    <div class="interest-row">
+      <span class="interest-name">English</span>
+      <span class="interest-desc">สื่อสารภาษาอังกฤษได้</span>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <p class="label">ติดต่อ</p>
+    <a class="contact-card" href="https://instagram.com/Julie_mtnp" target="_blank" rel="noopener">
+      <span class="ig-glyph">IG</span>
+      <span class="ig-text">
+        <span class="ig-k">Instagram</span>
+        <span class="ig-v">@Julie_mtnp</span>
+      </span>
+    </a>
+  </div>
+</section>
+
+<footer>NAPHAT CHAROENSUK · 6823765380</footer>
+
+</body>
+</html>
+                    
+                </p>
+            </p>
+        </h1>
+    </body>
+</html>
